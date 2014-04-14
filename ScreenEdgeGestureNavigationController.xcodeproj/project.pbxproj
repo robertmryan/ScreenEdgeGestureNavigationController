@@ -14,13 +14,24 @@
 		8369A02218F845CE006C92C3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8369A02118F845CE006C92C3 /* main.m */; };
 		8369A02618F845CE006C92C3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8369A02518F845CE006C92C3 /* AppDelegate.m */; };
 		8369A02918F845CE006C92C3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8369A02718F845CE006C92C3 /* Main.storyboard */; };
-		8369A02C18F845CE006C92C3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8369A02B18F845CE006C92C3 /* ViewController.m */; };
 		8369A02E18F845CE006C92C3 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8369A02D18F845CE006C92C3 /* Images.xcassets */; };
 		8369A03518F845CE006C92C3 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8369A03418F845CE006C92C3 /* XCTest.framework */; };
 		8369A03618F845CE006C92C3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8369A01518F845CE006C92C3 /* Foundation.framework */; };
 		8369A03718F845CE006C92C3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8369A01918F845CE006C92C3 /* UIKit.framework */; };
 		8369A03F18F845CE006C92C3 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8369A03D18F845CE006C92C3 /* InfoPlist.strings */; };
 		8369A04118F845CE006C92C3 /* ScreenEdgeGestureNavigationControllerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8369A04018F845CE006C92C3 /* ScreenEdgeGestureNavigationControllerTests.m */; };
+		8369A05118F84738006C92C3 /* NoPredefinedOrderViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8369A04C18F84738006C92C3 /* NoPredefinedOrderViewController.m */; };
+		8369A05218F84738006C92C3 /* PredeterminedOneViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8369A04E18F84738006C92C3 /* PredeterminedOneViewController.m */; };
+		8369A05318F84738006C92C3 /* PredeterminedTwoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8369A05018F84738006C92C3 /* PredeterminedTwoViewController.m */; };
+		8369A05F18F84784006C92C3 /* ScreenEdgeGestureNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8369A05818F84784006C92C3 /* ScreenEdgeGestureNavigationController.m */; };
+		8369A06018F84784006C92C3 /* ScreenEdgeGesturePopAnimator.m in Sources */ = {isa = PBXBuildFile; fileRef = 8369A05A18F84784006C92C3 /* ScreenEdgeGesturePopAnimator.m */; };
+		8369A06118F84784006C92C3 /* ScreenEdgeGesturePushAnimator.m in Sources */ = {isa = PBXBuildFile; fileRef = 8369A05C18F84784006C92C3 /* ScreenEdgeGesturePushAnimator.m */; };
+		8369A06218F84784006C92C3 /* ScreenEdgeGestureRecognizer.m in Sources */ = {isa = PBXBuildFile; fileRef = 8369A05E18F84784006C92C3 /* ScreenEdgeGestureRecognizer.m */; };
+		8369A06818F8513A006C92C3 /* PredeterminedThreeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8369A06718F8513A006C92C3 /* PredeterminedThreeViewController.m */; };
+		8369A06B18F851A7006C92C3 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8369A06A18F851A7006C92C3 /* MainViewController.m */; };
+		8369A06E18F854CB006C92C3 /* StandardOneViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8369A06D18F854CB006C92C3 /* StandardOneViewController.m */; };
+		8369A07118F854E1006C92C3 /* StandardTwoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8369A07018F854E1006C92C3 /* StandardTwoViewController.m */; };
+		8369A07418F854F9006C92C3 /* StandardThreeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8369A07318F854F9006C92C3 /* StandardThreeViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,21 +49,44 @@
 		8369A01518F845CE006C92C3 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		8369A01718F845CE006C92C3 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		8369A01918F845CE006C92C3 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
-		8369A01D18F845CE006C92C3 /* ScreenEdgeGestureNavigationController-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ScreenEdgeGestureNavigationController-Info.plist"; sourceTree = "<group>"; };
+		8369A01D18F845CE006C92C3 /* ScreenEdgeGestureNavigationController-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "ScreenEdgeGestureNavigationController-Info.plist"; path = "Demonstration/ScreenEdgeGestureNavigationController-Info.plist"; sourceTree = "<group>"; };
 		8369A01F18F845CE006C92C3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		8369A02118F845CE006C92C3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		8369A02318F845CE006C92C3 /* ScreenEdgeGestureNavigationController-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ScreenEdgeGestureNavigationController-Prefix.pch"; sourceTree = "<group>"; };
-		8369A02418F845CE006C92C3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		8369A02518F845CE006C92C3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		8369A02118F845CE006C92C3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = main.m; path = Demonstration/main.m; sourceTree = "<group>"; };
+		8369A02318F845CE006C92C3 /* ScreenEdgeGestureNavigationController-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "ScreenEdgeGestureNavigationController-Prefix.pch"; path = "Demonstration/ScreenEdgeGestureNavigationController-Prefix.pch"; sourceTree = "<group>"; };
+		8369A02418F845CE006C92C3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = Demonstration/AppDelegate.h; sourceTree = "<group>"; };
+		8369A02518F845CE006C92C3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = Demonstration/AppDelegate.m; sourceTree = "<group>"; };
 		8369A02818F845CE006C92C3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		8369A02A18F845CE006C92C3 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		8369A02B18F845CE006C92C3 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		8369A02D18F845CE006C92C3 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		8369A03318F845CE006C92C3 /* ScreenEdgeGestureNavigationControllerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ScreenEdgeGestureNavigationControllerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8369A03418F845CE006C92C3 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		8369A03C18F845CE006C92C3 /* ScreenEdgeGestureNavigationControllerTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ScreenEdgeGestureNavigationControllerTests-Info.plist"; sourceTree = "<group>"; };
 		8369A03E18F845CE006C92C3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		8369A04018F845CE006C92C3 /* ScreenEdgeGestureNavigationControllerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ScreenEdgeGestureNavigationControllerTests.m; sourceTree = "<group>"; };
+		8369A04B18F84738006C92C3 /* NoPredefinedOrderViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NoPredefinedOrderViewController.h; path = Demonstration/NoPredefinedOrderViewController.h; sourceTree = "<group>"; };
+		8369A04C18F84738006C92C3 /* NoPredefinedOrderViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NoPredefinedOrderViewController.m; path = Demonstration/NoPredefinedOrderViewController.m; sourceTree = "<group>"; };
+		8369A04D18F84738006C92C3 /* PredeterminedOneViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PredeterminedOneViewController.h; path = Demonstration/PredeterminedOneViewController.h; sourceTree = "<group>"; };
+		8369A04E18F84738006C92C3 /* PredeterminedOneViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PredeterminedOneViewController.m; path = Demonstration/PredeterminedOneViewController.m; sourceTree = "<group>"; };
+		8369A04F18F84738006C92C3 /* PredeterminedTwoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PredeterminedTwoViewController.h; path = Demonstration/PredeterminedTwoViewController.h; sourceTree = "<group>"; };
+		8369A05018F84738006C92C3 /* PredeterminedTwoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PredeterminedTwoViewController.m; path = Demonstration/PredeterminedTwoViewController.m; sourceTree = "<group>"; };
+		8369A05718F84784006C92C3 /* ScreenEdgeGestureNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScreenEdgeGestureNavigationController.h; sourceTree = "<group>"; };
+		8369A05818F84784006C92C3 /* ScreenEdgeGestureNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScreenEdgeGestureNavigationController.m; sourceTree = "<group>"; };
+		8369A05918F84784006C92C3 /* ScreenEdgeGesturePopAnimator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScreenEdgeGesturePopAnimator.h; sourceTree = "<group>"; };
+		8369A05A18F84784006C92C3 /* ScreenEdgeGesturePopAnimator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScreenEdgeGesturePopAnimator.m; sourceTree = "<group>"; };
+		8369A05B18F84784006C92C3 /* ScreenEdgeGesturePushAnimator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScreenEdgeGesturePushAnimator.h; sourceTree = "<group>"; };
+		8369A05C18F84784006C92C3 /* ScreenEdgeGesturePushAnimator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScreenEdgeGesturePushAnimator.m; sourceTree = "<group>"; };
+		8369A05D18F84784006C92C3 /* ScreenEdgeGestureRecognizer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScreenEdgeGestureRecognizer.h; sourceTree = "<group>"; };
+		8369A05E18F84784006C92C3 /* ScreenEdgeGestureRecognizer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScreenEdgeGestureRecognizer.m; sourceTree = "<group>"; };
+		8369A06318F847B4006C92C3 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
+		8369A06618F8513A006C92C3 /* PredeterminedThreeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PredeterminedThreeViewController.h; path = Demonstration/PredeterminedThreeViewController.h; sourceTree = "<group>"; };
+		8369A06718F8513A006C92C3 /* PredeterminedThreeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PredeterminedThreeViewController.m; path = Demonstration/PredeterminedThreeViewController.m; sourceTree = "<group>"; };
+		8369A06918F851A7006C92C3 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MainViewController.h; path = Demonstration/MainViewController.h; sourceTree = "<group>"; };
+		8369A06A18F851A7006C92C3 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MainViewController.m; path = Demonstration/MainViewController.m; sourceTree = "<group>"; };
+		8369A06C18F854CB006C92C3 /* StandardOneViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = StandardOneViewController.h; path = Demonstration/StandardOneViewController.h; sourceTree = "<group>"; };
+		8369A06D18F854CB006C92C3 /* StandardOneViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = StandardOneViewController.m; path = Demonstration/StandardOneViewController.m; sourceTree = "<group>"; };
+		8369A06F18F854E1006C92C3 /* StandardTwoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = StandardTwoViewController.h; path = Demonstration/StandardTwoViewController.h; sourceTree = "<group>"; };
+		8369A07018F854E1006C92C3 /* StandardTwoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = StandardTwoViewController.m; path = Demonstration/StandardTwoViewController.m; sourceTree = "<group>"; };
+		8369A07218F854F9006C92C3 /* StandardThreeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = StandardThreeViewController.h; path = Demonstration/StandardThreeViewController.h; sourceTree = "<group>"; };
+		8369A07318F854F9006C92C3 /* StandardThreeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = StandardThreeViewController.m; path = Demonstration/StandardThreeViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +116,7 @@
 		8369A00918F845CE006C92C3 = {
 			isa = PBXGroup;
 			children = (
+				8369A06318F847B4006C92C3 /* README.md */,
 				8369A01B18F845CE006C92C3 /* ScreenEdgeGestureNavigationController */,
 				8369A03A18F845CE006C92C3 /* ScreenEdgeGestureNavigationControllerTests */,
 				8369A01418F845CE006C92C3 /* Frameworks */,
@@ -112,13 +147,8 @@
 		8369A01B18F845CE006C92C3 /* ScreenEdgeGestureNavigationController */ = {
 			isa = PBXGroup;
 			children = (
-				8369A02418F845CE006C92C3 /* AppDelegate.h */,
-				8369A02518F845CE006C92C3 /* AppDelegate.m */,
-				8369A02718F845CE006C92C3 /* Main.storyboard */,
-				8369A02A18F845CE006C92C3 /* ViewController.h */,
-				8369A02B18F845CE006C92C3 /* ViewController.m */,
-				8369A02D18F845CE006C92C3 /* Images.xcassets */,
-				8369A01C18F845CE006C92C3 /* Supporting Files */,
+				8369A05618F84784006C92C3 /* ScreenEdgeGestureNavigationController */,
+				8369A04A18F846D7006C92C3 /* Demonstration */,
 			);
 			path = ScreenEdgeGestureNavigationController;
 			sourceTree = "<group>";
@@ -150,6 +180,81 @@
 				8369A03D18F845CE006C92C3 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8369A04A18F846D7006C92C3 /* Demonstration */ = {
+			isa = PBXGroup;
+			children = (
+				8369A02418F845CE006C92C3 /* AppDelegate.h */,
+				8369A02518F845CE006C92C3 /* AppDelegate.m */,
+				8369A02718F845CE006C92C3 /* Main.storyboard */,
+				8369A05418F8473E006C92C3 /* View Controllers */,
+				8369A02D18F845CE006C92C3 /* Images.xcassets */,
+				8369A01C18F845CE006C92C3 /* Supporting Files */,
+			);
+			name = Demonstration;
+			sourceTree = "<group>";
+		};
+		8369A05418F8473E006C92C3 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				8369A06918F851A7006C92C3 /* MainViewController.h */,
+				8369A06A18F851A7006C92C3 /* MainViewController.m */,
+				8369A06418F84F2E006C92C3 /* No Predetermined "Next" Controller */,
+				8369A06518F84F40006C92C3 /* Predetermined "Next" Controllers */,
+				8369A07518F85504006C92C3 /* Standard Push View Controllers */,
+			);
+			name = "View Controllers";
+			sourceTree = "<group>";
+		};
+		8369A05618F84784006C92C3 /* ScreenEdgeGestureNavigationController */ = {
+			isa = PBXGroup;
+			children = (
+				8369A05718F84784006C92C3 /* ScreenEdgeGestureNavigationController.h */,
+				8369A05818F84784006C92C3 /* ScreenEdgeGestureNavigationController.m */,
+				8369A05918F84784006C92C3 /* ScreenEdgeGesturePopAnimator.h */,
+				8369A05A18F84784006C92C3 /* ScreenEdgeGesturePopAnimator.m */,
+				8369A05B18F84784006C92C3 /* ScreenEdgeGesturePushAnimator.h */,
+				8369A05C18F84784006C92C3 /* ScreenEdgeGesturePushAnimator.m */,
+				8369A05D18F84784006C92C3 /* ScreenEdgeGestureRecognizer.h */,
+				8369A05E18F84784006C92C3 /* ScreenEdgeGestureRecognizer.m */,
+			);
+			path = ScreenEdgeGestureNavigationController;
+			sourceTree = "<group>";
+		};
+		8369A06418F84F2E006C92C3 /* No Predetermined "Next" Controller */ = {
+			isa = PBXGroup;
+			children = (
+				8369A04B18F84738006C92C3 /* NoPredefinedOrderViewController.h */,
+				8369A04C18F84738006C92C3 /* NoPredefinedOrderViewController.m */,
+			);
+			name = "No Predetermined \"Next\" Controller";
+			sourceTree = "<group>";
+		};
+		8369A06518F84F40006C92C3 /* Predetermined "Next" Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				8369A04D18F84738006C92C3 /* PredeterminedOneViewController.h */,
+				8369A04E18F84738006C92C3 /* PredeterminedOneViewController.m */,
+				8369A04F18F84738006C92C3 /* PredeterminedTwoViewController.h */,
+				8369A05018F84738006C92C3 /* PredeterminedTwoViewController.m */,
+				8369A06618F8513A006C92C3 /* PredeterminedThreeViewController.h */,
+				8369A06718F8513A006C92C3 /* PredeterminedThreeViewController.m */,
+			);
+			name = "Predetermined \"Next\" Controllers";
+			sourceTree = "<group>";
+		};
+		8369A07518F85504006C92C3 /* Standard Push View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				8369A06C18F854CB006C92C3 /* StandardOneViewController.h */,
+				8369A06D18F854CB006C92C3 /* StandardOneViewController.m */,
+				8369A06F18F854E1006C92C3 /* StandardTwoViewController.h */,
+				8369A07018F854E1006C92C3 /* StandardTwoViewController.m */,
+				8369A07218F854F9006C92C3 /* StandardThreeViewController.h */,
+				8369A07318F854F9006C92C3 /* StandardThreeViewController.m */,
+			);
+			name = "Standard Push View Controllers";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -249,9 +354,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8369A02C18F845CE006C92C3 /* ViewController.m in Sources */,
+				8369A06B18F851A7006C92C3 /* MainViewController.m in Sources */,
+				8369A05F18F84784006C92C3 /* ScreenEdgeGestureNavigationController.m in Sources */,
+				8369A07118F854E1006C92C3 /* StandardTwoViewController.m in Sources */,
+				8369A05218F84738006C92C3 /* PredeterminedOneViewController.m in Sources */,
+				8369A07418F854F9006C92C3 /* StandardThreeViewController.m in Sources */,
 				8369A02618F845CE006C92C3 /* AppDelegate.m in Sources */,
+				8369A06118F84784006C92C3 /* ScreenEdgeGesturePushAnimator.m in Sources */,
+				8369A05118F84738006C92C3 /* NoPredefinedOrderViewController.m in Sources */,
+				8369A05318F84738006C92C3 /* PredeterminedTwoViewController.m in Sources */,
+				8369A06818F8513A006C92C3 /* PredeterminedThreeViewController.m in Sources */,
+				8369A06E18F854CB006C92C3 /* StandardOneViewController.m in Sources */,
 				8369A02218F845CE006C92C3 /* main.m in Sources */,
+				8369A06218F84784006C92C3 /* ScreenEdgeGestureRecognizer.m in Sources */,
+				8369A06018F84784006C92C3 /* ScreenEdgeGesturePopAnimator.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -377,8 +493,8 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "ScreenEdgeGestureNavigationController/ScreenEdgeGestureNavigationController-Prefix.pch";
-				INFOPLIST_FILE = "ScreenEdgeGestureNavigationController/ScreenEdgeGestureNavigationController-Info.plist";
+				GCC_PREFIX_HEADER = "ScreenEdgeGestureNavigationController/Demonstration/ScreenEdgeGestureNavigationController-Prefix.pch";
+				INFOPLIST_FILE = "ScreenEdgeGestureNavigationController/Demonstration/ScreenEdgeGestureNavigationController-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -390,8 +506,8 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "ScreenEdgeGestureNavigationController/ScreenEdgeGestureNavigationController-Prefix.pch";
-				INFOPLIST_FILE = "ScreenEdgeGestureNavigationController/ScreenEdgeGestureNavigationController-Info.plist";
+				GCC_PREFIX_HEADER = "ScreenEdgeGestureNavigationController/Demonstration/ScreenEdgeGestureNavigationController-Prefix.pch";
+				INFOPLIST_FILE = "ScreenEdgeGestureNavigationController/Demonstration/ScreenEdgeGestureNavigationController-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
