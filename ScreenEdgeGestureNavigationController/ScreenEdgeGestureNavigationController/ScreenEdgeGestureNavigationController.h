@@ -73,7 +73,7 @@
  1. Add the source files in the `ScreenEdgeGestNavigationController` folder to your project.
     Note, do not add the Demostration files.
  
- 2. your project's Storyboard, change the custom class of the navigation controller to be this
+ 2. In your project's Storyboard, change the custom class of the navigation controller to be this
     `ScreenEdgeGestureNavigationController`, custom gesture based navigation controller.
 
     By doing this, if you enable the basic feature by which it remembers which view controllers
